@@ -1,0 +1,44 @@
+$base-color: #5ad9b9;
+$second-color: #4354d0;
+$blue-bg-color: #111a53;
+
+
+$text-base-color: #5ad9b9;
+$text-dark-blue: #111a53;
+$text-light-purple: #8d91c2;
+
+
+$text-font: 'Poppins', sans-serif;
+$heading-font: 'Yeseva One', cursive;
+
+
+@mixin for-esm{
+    @media screen and (min-width: 420px) {
+        @content;
+    }
+}
+
+@mixin for-sm{
+    @media screen and (min-width: 576px) {
+        @content;
+    }
+}
+
+@mixin for-md{
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin for-lg{
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin for-xl{
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
